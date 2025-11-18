@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import GlassButton from './Buttons/GlassButton'
 import JioHotstar from './hotstar/JioHotstar'
+import Carosel from './Carosel/Carosel'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,8 @@ function App() {
   <>
 
   {/* <GlassButton/> */}
-  <JioHotstar/>
+  {/* <JioHotstar/> */}
+<Carosel/>
   </>
   )
 }
