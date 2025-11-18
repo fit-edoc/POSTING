@@ -5,6 +5,7 @@ import './App.css'
 import GlassButton from './Buttons/GlassButton'
 import JioHotstar from './hotstar/JioHotstar'
 import Carosel from './Carosel/Carosel'
+import Testimonial from './Testinomial/Testinomial'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
   {/* <GlassButton/> */}
   {/* <JioHotstar/> */}
 <Carosel/>
+<Testimonial/>
   </>
   )
 }
